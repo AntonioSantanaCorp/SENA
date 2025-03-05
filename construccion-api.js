@@ -31,9 +31,6 @@ app.post('/login', (req, res) => {
         return res.status(400).send('el usuario no se encuentra registrado')
 })
 
-
-
-//Puerto dinamico
 const server = app.listen(3200, () => {
     console.log(`La api se ejecuta: http://localhost:${server.address().port}`)
 })
