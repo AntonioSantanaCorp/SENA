@@ -4,9 +4,6 @@ const app = express()
 app.use(express.json());
 
 const USUARIOS = []
-app.get('/', (req, res) => { 
-    res.send('Hola')
-})
 
 app.post('/signin', (req, res) => {
     const { usuario, contra } = req.body || {}

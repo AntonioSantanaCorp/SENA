@@ -4,10 +4,6 @@ Este proyecto es una API construida con Express.js que permite la creación y au
 
 ## Endpoints
 
-### `GET /`
-
-Este endpoint devuelve un mensaje de bienvenida.
-
 ### `POST /signin`
 
 Este endpoint permite la creación de un nuevo usuario. El cuerpo de la solicitud debe contener `usuario` y `contra`.
