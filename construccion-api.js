@@ -11,6 +11,9 @@ app.post('/signin', (req, res) => {
     if (usuario === undefined || contra === undefined)
         return res.status(400).send('falta usuario o contraseña');
 
+    if (USUARIOS.some(u => u.usuario === usuario))
+        return res.status(400).send('el usuario ya se encuentra registrado');
+
     USUARIOS.push({ usuario, contra });
 
     res.send('Usuario creado');
