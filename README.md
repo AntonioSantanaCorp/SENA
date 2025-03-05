@@ -2,6 +2,9 @@
 
 Este proyecto es una API construida con Express.js que permite la creación y autenticación de usuarios. Debido a los requisitos de la actividad, no nos conectamos a una base de datos; en su lugar, los usuarios se almacenan en memoria.
 
+## Repositorio Git
+[Url repo](https://github.com/AntonioSantanaCorp/SENA/tree/GA7-220501096-AA5-EV01)
+
 ## Endpoints
 
 ### `POST /signin`
