@@ -1,12 +1,48 @@
-# React + Vite
+# Sistema Gestión Clubes Deportivos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web para la gestión de clubes deportivos, desarrollada con React y Vite. La aplicación permite a los usuarios iniciar sesión y gestionar diferentes aspectos de los clubes deportivos.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos de frontend.
+- **Bootstrap**: Framework CSS para diseño responsivo y componentes predefinidos.
+- **React Bootstrap**: Componentes de Bootstrap para React.
+- **Material Icons**: Íconos de Google para mejorar la interfaz de usuario.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
+
+1. Clona el repositorio: https://github.com/AntonioSantanaCorp/SENA/tree/GA7-220501096-AA4-EV03
+
+2. Instala las dependencias:
+
+   ```sh
+   npm install
+   ```
+
+3. Inicia la aplicación:
+   ```sh
+   npm run dev
+   ```
+
+## Estructura del Proyecto
+
+La estructura del proyecto es la siguiente:
+
+```
+GA7-220501096-AA4-EV03/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── login/
+│   │       └── Login.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+```
